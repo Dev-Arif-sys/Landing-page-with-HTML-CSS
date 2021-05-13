@@ -1,0 +1,137 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-image: url(/img/jefferson-santos-9SoCnyQmkzI-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100%;
+  
+}
+
+.header{
+  justify-content: center;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+   color: white;
+   height: 60%;
+   padding: 0 300px;
+   background-color: rgba(238, 228, 238,0.1);
+}
+.header h2{
+   font-size: 35px;
+   color: rgb(225, 232, 235);
+}
+.header p{
+    font-size: 18px;
+}
+.header button{
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color:rgb(36, 31, 36) ;
+    font-size: 18px;
+    color: white;
+   
+}
+button a{
+    text-decoration: none;
+    color: white;
+   
+}
+button a:hover{
+    text-decoration: none;
+    color:black;
+   
+}
+.header button:hover{
+    background-color: rgb(225, 232, 235);
+    color: black;
+    transition: 0.2s;
+}
+
+.serviceDetails{
+    background-color: rgb(226, 217, 208);
+    text-align: center;
+    margin-top:0 ;
+    padding: 40px 40px 60px 40px;
+    color: rgb(59, 55, 55);
+}
+.serviceDetails .text{
+    display: flex;
+    justify-content:space-between;
+
+    
+   
+}
+.text .p1{
+    padding:20px 10px 30px 100px ;
+}
+.text .p2{
+    padding: 20px 100px 30px 10px;
+}
+
+/* card designing*/
+.cardMainContainer{
+    background-color: rgba(163, 138, 138);
+    padding: 20px;
+}
+.cardMainContainer h3{
+    color: white;
+    text-align: center;
+}
+.card{
+    width: 300px;
+    text-align: center;
+    height: 550px;
+  box-shadow: 0 4px 8px 0 rgba(49, 24, 24,0.6);
+  background-color: white;
+  margin-right: 20px;
+
+}
+.card img{
+    max-width: 100%;
+
+}
+.cardContainer{
+    display: flex;
+    justify-content: center;
+   
+
+}
+.conviencing{
+    text-align: center;
+    padding: 80px 90px;
+}
+.contactAbout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact {
+    background-color: rgb(128, 99, 99);
+    padding: 60px 60px;
+    text-align: center;
+    color: white;
+}
+.about{
+    background-color: rgb(35, 51, 75);
+    padding: 60px 60px;
+    text-align: center;
+    color: white;
+}
+.footer{
+    background-color: rgb(31, 15, 15);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.footer p{
+    font-size: 20px;
+    color: white;
+}
+
+
